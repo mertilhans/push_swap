@@ -6,7 +6,7 @@
 /*   By: merilhan <merilhan@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/20 19:16:31 by merilhan          #+#    #+#             */
-/*   Updated: 2025/04/20 19:19:28 by merilhan         ###   ########.fr       */
+/*   Updated: 2025/04/20 20:25:05 by merilhan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,7 +42,7 @@ int	is_number(char **av)
 		{
 			if ((av[i][j] == '-' || av[i][j] == '+') && j == 0)
 				;
-			else if (av[i][j] < '0' || av[i][j] > '9')
+			else if (av[i][j] < '0' || av[i][j] >  '9')
 				return (1);
 			j++;
 		}
